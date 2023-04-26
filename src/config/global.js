@@ -1,17 +1,19 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Almacenar y controlar productos farmacéuticos en los servicios farmacéuticos',
+    descripcionCurso:
+      'Este componente aborda los conocimientos de almacenamiento de los productos según las condiciones locativas y técnicas del almacenamiento de los productos farmacéuticos según direccionamientos normativos, el seguimiento y evaluación del proceso de almacenamiento de medicamentos y los dispositivos médicos, para que los aprendices reconozcan cada uno de los parámetros a seguir que permitan aplicar las buenas prácticas de almacenamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        //imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        //imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +33,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ubicaciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipos de ubicaciones',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Señalización del espacio',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +52,43 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Almacenaje',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Metodos de almacenaje',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Capacidad de almacenamiento',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Condiciones y controles de las fechas de vencimiento',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Medicamentos de alto costo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Medicamentos de control especial',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo:
+          'Documentos utilizados durante el proceso de almacenamiento de medicamentos y dispositivos médicos',
         desarrolloContenidos: true,
       },
     ],

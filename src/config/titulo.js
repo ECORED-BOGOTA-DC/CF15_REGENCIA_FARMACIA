@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Almacenar y controlar productos farmacéuticos en los servicios farmacéuticos'
