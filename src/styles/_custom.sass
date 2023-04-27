@@ -23,6 +23,34 @@
   padding-top: 6rem !important
   padding-bottom: 3rem !important
 
+
+  
+///// CSS GLOBALES-------
+
+.tarjeta--morada
+  background-color: #F1EEFC
+  border-radius: 15px
+
+.color-vineta1
+  color: #7E5EE3 !important
+
+.bloque-texto-g1__img 
+  width: 65%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    height: 150px
+    width: 100%
+    left: 0%
+
+
+
+/// CSS INTRODUCCION -------------
+
 .img1-intro
   margin: 0
   width: 120%
@@ -38,9 +66,10 @@
     right: 0px
     top: 0px
 
-.tarjeta--morada
-  background-color: #F1EEFC
-  border-radius: 15px
+
+
+/// CSS TEMA 1 -----------
+
 
 .img1-tm1
   margin: 0
@@ -69,14 +98,64 @@
     position: relative
     right: 0%
 
-.color-vineta1
-  color: #7E5EE3 !important
 
-.bloque-texto-g1__img 
-  width: 65%
-  position: absolute
-  top: 0
-  left: 0
-  bottom: 0
-  background-position: center
-  background-size: cover
+
+/// CSS TEMA 2 -----
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -50px
+    width: calc( 110% + 130px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema2/bg1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.img3-tm2
+  width: 430%
+  max-width: 430%
+  position: relative
+  right: 310%
+  margin-top: -30%
+  @media (max-width: 500px)
+    width: 100%
+    position: relative
+    right: 0%
+    margin-top: 0%
+
+.tarjeta--azul-2
+  background-color: #F2FBFF
+
+.img4-tm2
+  width: 200%
+  max-width: 300%
+  position: relative
+  margin-top: -10px
+  @media (max-width: 500px)
+    width: 100%
+    position: relative
+    margin-top: 0px
+
+.cajon.color-acento-contenido
+    background-color: #ffffff
+
+.bg2
+  background-image: url(../assets/curso/temas/tema2/bg2.png)
+  background-size: 100% 100%
+
+
+
+
+
+
+
+
