@@ -26,9 +26,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.texto-blanco Resolución 1478 de 2006
-                  p.texto-blanco Con el propósito de conocer las normas para el control, seguimiento y vigilancia de la importación, exportación, procesamiento, síntesis, fabricación, distribución, dispensación, compra, venta, destrucción y uso de sustancias sometidas a fiscalización, medicamentos o cualquier otro producto que las contengan y sobre aquellas que son monopolio del Estado. Se invita al aprendiz a consultar la Resolución 1478 de 2006 en la sección de material complementario.
+                  p.texto-blanco.mb-0 Con el propósito de conocer las normas para el control, seguimiento y vigilancia de la importación, exportación, procesamiento, síntesis, fabricación, distribución, dispensación, compra, venta, destrucción y uso de sustancias sometidas a fiscalización, medicamentos o cualquier otro producto que las contengan y sobre aquellas que son monopolio del Estado. Se invita al aprendiz a consultar la Resolución 1478 de 2006 en la sección de material complementario.
                 .col-sm-auto
-                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/Resolucion_1478_de_2006.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

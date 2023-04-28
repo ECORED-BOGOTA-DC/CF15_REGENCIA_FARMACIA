@@ -137,6 +137,12 @@ export default {
       tema: '',
       referencia: '',
       tipo: '',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      tema: '',
+      referencia: '',
+      tipo: '',
       link: 'https://www.google.com/',
     },
     {

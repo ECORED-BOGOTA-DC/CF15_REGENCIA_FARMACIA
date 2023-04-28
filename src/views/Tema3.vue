@@ -86,9 +86,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.texto-blanco Decreto 1782 de 2014
-                  p.texto-blanco Con el propósito de conocer los requisitos y el procedimiento para las evaluaciones farmacológicas y farmacéuticas de los medicamentos biológicos en el trámite del registro sanitario se invita al aprendiz a consultar el Decreto 1782 de 2014 en la sección de material complementario.
+                  p.texto-blanco.mb-0 Con el propósito de conocer los requisitos y el procedimiento para las evaluaciones farmacológicas y farmacéuticas de los medicamentos biológicos en el trámite del registro sanitario se invita al aprendiz a consultar el Decreto 1782 de 2014 en la sección de material complementario.
                 .col-sm-auto
-                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/Decreto_1782_de_2014.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

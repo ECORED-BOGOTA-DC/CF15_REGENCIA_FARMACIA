@@ -96,9 +96,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1.texto-blanco Resolucion 4002 de 2007
-                  p.texto-blanco Con el propósito de conocer la reglamentación de los regímenes de registros sanitarios, permisos de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano se invita al aprendiz a consultar la Resolución 4002 de 2007 en la sección de material complementario.
+                  p.texto-blanco.mb-0 Con el propósito de conocer la reglamentación de los regímenes de registros sanitarios, permisos de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano se invita al aprendiz a consultar la Resolución 4002 de 2007 en la sección de material complementario.
                 .col-sm-auto
-                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/resolucion_4002_de_2007.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
