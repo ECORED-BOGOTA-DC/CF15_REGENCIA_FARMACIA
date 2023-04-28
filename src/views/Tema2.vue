@@ -107,15 +107,15 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Condiciones y controles de las fechas de vencimiento
 
-    .row.justidy-content-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-10
-        hr
+        hr.mb-0
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             .row
               p.mb-0 El servicio o establecimiento farmacéutico contará con criterios, procedimientos y recursos que permitan verificar continuamente la fecha de vencimiento de los           medicamentos y dispositivos médicos, para que sean distribuidos o dispensados dentro de la fecha de vigencia o se solicite con la debida antelación la devolución o cambio al proveedor, de acuerdo con las condiciones de negociación.
-              b.texto-derecha  - Resolución 1403 de 2007 
+              b - Resolución 1403 de 2007 
             i.fas.fa-quote-right
 
     .bg3.my-5
