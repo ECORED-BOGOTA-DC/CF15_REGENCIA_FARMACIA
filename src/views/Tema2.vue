@@ -86,6 +86,79 @@
               .cajon.color-acento-contenido.p-4
                 p.mb-0 Durante el proceso del plan de mejoramiento continuo del programa de tecnovigilancia en el sector farmacéutico, el Ministerio de Salud y la Protección Social decreta la Resolución 4002 de 2007 por la cual se adopta el Manual de requisitos de capacidad de almacenamiento y/o acondicionamiento para dispositivos médicos, sin dejar de un lado el Decreto 4725 de 2005.
 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta.bg2.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/temas/tema2/img5.svg").img-hoja-texto
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1.texto-blanco Resolucion 4002 de 2007
+                  p.texto-blanco Con el propósito de conocer la reglamentación de los regímenes de registros sanitarios, permisos de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano se invita al aprendiz a consultar la Resolución 4002 de 2007 en la sección de material complementario.
+                .col-sm-auto
+                  a.boton.color-aacento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+    separador
+
+    #t_2_3.titulo-segundo.color-acento-contenido
+      h2 2.3 Condiciones y controles de las fechas de vencimiento
+
+    .row.justidy-content-center.mb-5
+      .col-lg-10
+        hr
+        .bloque-texto-b.color-secundario.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            .row
+              p.mb-0 El servicio o establecimiento farmacéutico contará con criterios, procedimientos y recursos que permitan verificar continuamente la fecha de vencimiento de los           medicamentos y dispositivos médicos, para que sean distribuidos o dispensados dentro de la fecha de vigencia o se solicite con la debida antelación la devolución o cambio al proveedor, de acuerdo con las condiciones de negociación.
+              b.texto-derecha  - Resolución 1403 de 2007 
+            i.fas.fa-quote-right
+
+    .bg3.my-5
+      .row.justify-content-center.mb-5
+        .row
+          .col-8.col-lg-1
+            figure
+              img(src="@/assets/curso/temas/tema2/img6.png", alt="alt")
+
+          .col-lg-11
+            p El control de fechas de vencimiento se realiza desde el sistema de inventarios y la semaforización de los productos farmacéuticos, donde de acuerdo con las fechas de vencimiento se pone una pegatina como se muestra a continuación:    
+
+    .row.justify-content-center.my-5
+      .col-lg-8
+        h5.text-center.mb-4 Semaforización según fecha de vencimiento de medicamentos, reactivos insumos, dispositivos médicos yodontológicos
+
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src="@/assets/curso/temas/tema2/img7.png", alt="alt")
+
+          .tarjeta.tarjeta-verde.p-3(x="24%" y="85%" numero="+")
+            .h5.mb-2.texto-blanco Verde
+            p.texto-blanco Para los que tienen fecha de expiración de un año o más. 
+
+          .tarjeta.tarjeta-amarilla.p-3(x="50%" y="85%" numero="+")
+            .h5.mb-2.texto-blanco Amarillo
+            p.texto-blanco Para los de fecha de expiración de 6 a 11 meses.
+
+          .tarjeta.tarjeta-roja.p-3(x="76%" y="85%" numero="+")
+            .h5.mb-2.texto-blanco Rojo
+            p.texto-blanco Para los de fecha de expiración menor a 6 meses.
+
+    .row.justify-content-center.mb-5
+      .col-8.col-lg-3
+        figure
+          img(src="@/assets/curso/temas/tema2/img8.png", alt="alt")
+
+      .col-lg-9
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 Los productos con una pegatina color amarillo se tienen presente para ser distribuidos o dispensados con prioridad o separados para ser entregados al proveedor de acuerdo con la política de devolución. 
+
+        p Esta revisión se debe realizar como mínimo los primeros 5 días de cada mes y en el caso de encontrarse medicamentos vencidos se deben reportar de inmediato al director técnico, para que realice la salida del inventario, la predestrucción y envíe con la empresa encargada para la desnaturalización.
 
 
 
