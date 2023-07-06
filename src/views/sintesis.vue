@@ -3,8 +3,9 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p En los servicios farmacéuticos, el adecuado almacenamiento y control de productos siguiendo normativas y técnicas establecidas es fundamental. Se requiere seguimiento, evaluación y estrategias operativas acorde a la normativa. Las ubicaciones, señalización, métodos de almacenaje, capacidad y control de fechas de vencimiento deben considerarse. 
+
+    p.mb-5 Se requiere una atención especial para los medicamentos de alto costo y aquellos sujetos a control. Se utilizan algunos documentos pertinentes que garantizan el manejo adecuado de medicamentos y dispositivos médicos. Este componente formativo profundiza en estos temas relevantes, los cuales se pueden apreciar en el siguiente esquema.
 
     .row.justify-content-center
       .col-lg-10.mb-5
