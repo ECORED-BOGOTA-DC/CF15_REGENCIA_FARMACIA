@@ -10,12 +10,16 @@
     .bg1
       .row.justify-content-center.my-5
         .col-lg-11.my-5
-          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
-            .bloque-texto-g1__img(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 Se refiere directamente a la acción propia de almacenar, dicho en otras palabras, es la acción de guardar en el lugar establecido los productos que llegan al establecimiento, aplicando alguno de los diferentes métodos y sistemas, siempre dirigidos a la preservación y conservación de la cadena de las buenas prácticas de almacenamiento.
+          .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/temas/tema2/img1-1.svg', alt='Imágen decorativa')
+              .col-lg-8
+                .bloque-texto-a__texto.p-4
+                  p Se refiere directamente a la acción propia de almacenar, dicho en otras palabras, es la acción de guardar en el lugar establecido los productos que llegan al establecimiento, aplicando alguno de los diferentes métodos y sistemas, siempre dirigidos a la preservación y conservación de la cadena de las buenas prácticas de almacenamiento.
+
+
 
     separador
 
@@ -47,7 +51,7 @@
                 | Optimiza el espacio del almacenaje por encima del 92%.
               li
                 i.fas.fa-atom.color-vineta1
-                | Es flexible a los cambios de stock.
+                | Es flexible a los cambios de <em>stock</em>.
               li
                 i.fas.fa-atom.color-vineta1
                 | Aligera el punto de ubicación de los productos.
@@ -60,7 +64,7 @@
         .tarjeta.tarjeta--morada.p-4
           .row
             .col-lg-10
-              p.mb-0 Unido a los métodos de almacenaje se encuentra el control de entradas y salidas de productos del servicio o establecimiento farmacéutico, debido a que es de suma importancia tener claras las variaciones del movimiento de inventario, puesto que permite evaluar qué tan eficaz está siendo el método escogido y aplicado. Estos controles se pueden realizar con registros de entradas y salidas tanto manual (Excel) como sistematizado (software), aunque el manual tiene la desventaja de no arrojar resultados precisos y sin fallos, por lo cual, lo más recomendable para cualquier institución es implementar un sistema de gestión de almacenamiento que sistematice los datos y administre el proceso de forma automática. 
+              p.mb-0 Unido a los métodos de almacenaje se encuentra el control de entradas y salidas de productos del servicio o establecimiento farmacéutico, debido a que es de suma importancia tener claras las variaciones del movimiento de inventario, puesto que permite evaluar qué tan eficaz está siendo el método escogido y aplicado. Estos controles se pueden realizar con registros de entradas y salidas tanto manual (Excel) como sistematizado (<i>software</i>), aunque el manual tiene la desventaja de no arrojar resultados precisos y sin fallos, por lo cual, lo más recomendable para cualquier institución es implementar un sistema de gestión de almacenamiento que sistematice los datos y administre el proceso de forma automática. 
 
       .col-8.col-lg-1
         figure
@@ -120,13 +124,13 @@
 
     .bg3.my-5
       .row.justify-content-center.mb-5
-        .row
-          .col-8.col-lg-1
+        .row.justify-content-center.align-items-center
+          .col-6.col-lg-1
             figure
-              img(src="@/assets/curso/temas/tema2/img6.png", alt="alt")
+              img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt")
 
           .col-lg-11
-            p El control de fechas de vencimiento se realiza desde el sistema de inventarios y la semaforización de los productos farmacéuticos, donde de acuerdo con las fechas de vencimiento se pone una pegatina como se muestra a continuación:    
+            p.mt-lg-0.mt-5.mb-0 El control de fechas de vencimiento se realiza desde el sistema de inventarios y la semaforización de los productos farmacéuticos, donde de acuerdo con las fechas de vencimiento se pone una pegatina como se muestra a continuación:    
 
     .row.justify-content-center.my-5
       .col-lg-8

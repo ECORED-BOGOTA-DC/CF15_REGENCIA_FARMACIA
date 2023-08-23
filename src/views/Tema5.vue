@@ -17,19 +17,19 @@
             p.mb-4 Reconocer y señalizar cada una de las áreas de almacenamiento de acuerdo con la normatividad legal vigente (Decreto 780 de 2016 y Resolución 1403 de 2007), inclusive el área de cuarentena, área de medicamentos con cadena de frío, área de medicamentos de control especial, área de soluciones de gran volumen y área de dispositivos médicos. 
             p.mb-4 El área de almacenamiento debe cumplir como mínimo con los siguientes criterios:
             .row.justify-content-center.ps-4
-              ul.lista-ul--color
+              ul.lista-ul--color.fa-ul2
                 li
                   i.fas.fa-atom.color-vineta1
-                  | #[b Fácil movimiento:] toda el área esté en una sola planta.
+                  p.mb-0 #[b Fácil movimiento:] toda el área esté en una sola planta.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | #[b Fácil circulación:] que haya un espacio suficiente entre las estanterías que permitan la fácil circulación del personal.
+                  p.mb-0 #[b Fácil circulación:] que haya un espacio suficiente entre las estanterías que permitan la fácil circulación del personal.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | La ubicación de los productos farmacéuticos deben permitir la circulación del aire, ya sea natural y/o artificial.
+                  p.mb-0 La ubicación de los productos farmacéuticos deben permitir la circulación del aire, ya sea natural y/o artificial.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | Pisos y paredes de fácil limpieza.
+                  p.mb-0 Pisos y paredes de fácil limpieza.
             
             p.mb-4 Las estanterías o cajoneras deben estar marcadas teniendo presente los medicamentos LASA, con el fin de evitar errores en la dispensación.
             p.mb-4 #[b Responsable:] químico Farmacéutico y/o Regente de Farmacia.
@@ -40,13 +40,13 @@
               img(src='@/assets/curso/temas/tema5/img1.svg', alt='alt')
 
         .row(titulo="Almacenamiento de los productos")
-          .col-lg-4.my-5
+          .col-lg-4.mb-5
             figure
               img(src='@/assets/curso/temas/tema5/img2.svg', alt='alt')
  
           .col-lg-8
             .row.justify-content-center
-              ul.lista-ul--color
+              ul.lista-ul--color.fa-ul2
                 li
                   i.fas.fa-atom.color-vineta1
                   | Los productos deben estar almacenados primero por orden alfabético, sobre todo en el caso de los medicamentos y segundo por forma farmacéutica.
@@ -72,7 +72,7 @@
           p #[b Responsable:] Químico Farmacéutico y/o Regente de Farmacia y Técnico en Servicios Farmacéuticos.
           p #[b Formato o documento:] Lista de chequeo de verificación y anexo 1: Almacenamiento según la clase de producto farmacéutico.
           .row.justify-content-center.ps-4
-            ul.lista-ul--color
+            ul.lista-ul--color.fa-ul2
               li
                 i.fas.fa-atom.color-vineta1
                 | Los medicamentos y dispositivos médicos ubicados en farmacias satélites o carros de reanimación deben ser almacenados en orden alfabético y deben estar demarcados. 
@@ -99,8 +99,8 @@
         .row(titulo="Control de fechas de vencimiento")
           .col-lg-8
             p.mb-4 Este control se realiza desde el sistema de inventarios y la semaforización de los productos farmacéuticos, tendiendo presente el formato de control de fechas de vencimiento.
-            p.mb-4 Responsable: director técnico del servicio o establecimiento farmacéutico y/o el técnico en servicios farmacéuticos.
-            p.mb-4 Formato o documento: formato control de fechas de vencimiento.
+            p.mb-4 <b>Responsable:</b> director técnico del servicio o establecimiento farmacéutico y/o el técnico en servicios farmacéuticos.
+            p.mb-4 <b>Formato o documento:</b> formato control de fechas de vencimiento.
 
             .row.justify-content-center
               .col-lg-12
@@ -173,19 +173,19 @@
             p.mb-4 Las medidas de contingencia son: 
 
             .row.justify-content-center.ps-4
-              ul.lista-ul--color
+              ul.lista-ul--color.fa-ul2
                 li
                   i.fas.fa-atom.color-vineta1
                   | Para todos los casos la primera medida a tomar es revisar que el dispositivo medidor esté calibrado y funcionando bien. En caso de que no, este se debe sacar de circulación y enviar a mantenimiento, en caso de estar bien se procede a aplicar las otras medidas de contingencia.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | #[b Temperatura:] si está por encima de lo permitido se debe encender el aire acondicionado en 17 o 18 grados o los ventiladores a máxima potencia y, se deben cerrar puertas y ventanas para que el frío se acumule y baje la temperatura. Si está por debajo de lo permitido se realiza lo contrario.
+                  p.mb-0 #[b Temperatura:] si está por encima de lo permitido se debe encender el aire acondicionado en 17 o 18 grados o los ventiladores a máxima potencia y, se deben cerrar puertas y ventanas para que el frío se acumule y baje la temperatura. Si está por debajo de lo permitido se realiza lo contrario.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | #[b Humedad:] cuando está por encima de lo permitido se debe apagar el aire artificial, abrir las puertas y ventanas y encender el deshumidificador.
+                  p.mb-0 #[b Humedad:] cuando está por encima de lo permitido se debe apagar el aire artificial, abrir las puertas y ventanas y encender el deshumidificador.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | #[b Nevera:] los planes de contingencia para esta es revisar que el termómetro esté funcionando bien, revisar que la nevera esté funcionando correctamente y en caso de que esta última sea la del problema se debe dejar la puerta cerrada sin abrirla en ningún momento máximo 8 horas, si el arreglo demora más se deben sacar los medicamentos y ponerlos en neveras de icopor o portátiles con las pilas de gel completamente congeladas; en casos extremos de tiempo se deben llevar los medicamentos a otra nevera de luz, garantizando en todo momento la calidad de estos.
+                  p.mb-0 #[b Nevera:] los planes de contingencia para esta es revisar que el termómetro esté funcionando bien, revisar que la nevera esté funcionando correctamente y en caso de que esta última sea la del problema se debe dejar la puerta cerrada sin abrirla en ningún momento máximo 8 horas, si el arreglo demora más se deben sacar los medicamentos y ponerlos en neveras de icopor o portátiles con las pilas de gel completamente congeladas; en casos extremos de tiempo se deben llevar los medicamentos a otra nevera de luz, garantizando en todo momento la calidad de estos.
 
           p.mb-4 #[b Responsable:] personal del servicio o establecimiento farmacéutico y en las farmacias satélites o carro de reanimación el personal de enfermería.
           p #[b Formato o documento:] formato control de condiciones ambientales.
@@ -194,8 +194,8 @@
           .col-lg-8
             p.mb-4 Todas las áreas de almacenamiento deben permanecer limpias y en ciertos casos como la nevera, desinfectadas. Para ello, el director técnico del establecimiento o servicio farmacéutico debe responsabilizar a cada uno de los integrantes de una o dos áreas para el aseo y desinfección de estas, bajo un cronograma establecido.
             p.mb-4 En caso tal de que haya personal de aseo este también debe asear ceñido por el cronograma.
-            p.mb-4 Responsable: todo el personal de farmacia y/o personal del aseo.
-            p.mb-4 Formato o documento: cronograma de aseo y limpieza.
+            p.mb-4 #[b Responsable:] todo el personal de farmacia y/o personal del aseo.
+            p.mb-4 #[b Formato o documento:] cronograma de aseo y limpieza.
 
             .row.justify-content-center
               .col-lg-12
@@ -224,8 +224,8 @@
 
           .col-lg-8
             p.mb-4 Durante el almacenamiento de medicamentos y dispositivos médicos se pueden presentar daños o deterioros en los empaques primarios de estos, por lo cual deben sacarse del inventario, predestuirse y ser enviados con la empresa encargada para su desnaturalización. Todo esto, se debe realizar bajo protocolos según el manual de gestión de residuos hospitalarios y similares. Para el control de estos se debe elaborar un formato donde se registren estos hallazgos.
-            p.mb-4 Responsable: del reporte todo el personal de farmacia, de la predestrucción, salida del inventario y envío para desnaturalización el director técnico del servicio o establecimiento farmacéutico.
-            p.mb-4 Formato o documento: formato de control de averías o deterioro.
+            p.mb-4 #[b Responsable:] del reporte todo el personal de farmacia, de la predestrucción, salida del inventario y envío para desnaturalización el director técnico del servicio o establecimiento farmacéutico.
+            p.mb-4 #[b Formato o documento:] formato de control de averías o deterioro.
 
           .row.justify-content-center
             .col-lg-10

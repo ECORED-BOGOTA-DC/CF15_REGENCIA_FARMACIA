@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Almacenar y controlar productos farmacéuticos en los servicios farmacéuticos',
     descripcionCurso:
-      'Este componente aborda los conocimientos de almacenamiento de los productos según las condiciones locativas y técnicas del almacenamiento de los productos farmacéuticos según direccionamientos normativos, el seguimiento y evaluación del proceso de almacenamiento de medicamentos y los dispositivos médicos, para que los aprendices reconozcan cada uno de los parámetros a seguir que permitan aplicar las buenas prácticas de almacenamiento.',
+      'Este componente aborda los conocimientos de almacenamiento de los productos según las condiciones locativas y técnicas del almacenamiento de los productos farmacéuticos de acuerdo con direccionamientos normativos, el seguimiento y evaluación del proceso de almacenamiento de medicamentos y los dispositivos médicos, para que los aprendices reconozcan cada uno de los parámetros a seguir que permitan aplicar las buenas prácticas de almacenamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

@@ -37,8 +37,8 @@
   bottom: 0
   background-position: center
   background-size: cover
-  @media (max-width: 500px)
-    height: 150px
+  @media (max-width: 991px)
+    height: 220px
     width: 100%
     left: 0%
 
@@ -86,7 +86,7 @@ hr:not([size])
 
 .img1-tm1
   margin: 0
-  width: 110%
+  width: 130%
   max-width: 200%
   position: relative
   right: 100%
@@ -106,7 +106,7 @@ hr:not([size])
   max-width: 200%
   position: relative
   right: 5%
-  @media (max-width: 500px)
+  @media (max-width: 991px)
     width: 100%
     position: relative
     right: 0%
@@ -131,7 +131,7 @@ hr:not([size])
     background-repeat: no-repeat
     background-position: center top 
     @media (max-width: 500px)
-      background-repeat: repeat
+      background-repeat: no-repeat
 
 
 .img3-tm2
@@ -140,7 +140,7 @@ hr:not([size])
   position: relative
   right: 270%
   margin-top: -50%
-  @media (max-width: 500px)
+  @media (max-width: 991px)
     width: 100%
     position: relative
     right: 0%
@@ -155,7 +155,7 @@ hr:not([size])
   position: relative
   margin-top: -20px
   left: 20%
-  @media (max-width: 500px)
+  @media (max-width: 991px)
     width: 100%
     position: relative
     margin-top: 0px
@@ -184,9 +184,6 @@ hr:not([size])
   color: #7E5EE3
 ///---------------------
 
-//.bg3
-  background-image: url(../assets/curso/temas/tema2/bg3.png)
-  background-size: 100% 100%
 
 .bg3
   position: relative
@@ -203,7 +200,7 @@ hr:not([size])
     background-size: 100% auto  
     background-repeat: no-repeat
     background-position: center top 
-    @media (max-width: 500px)
+    @media (max-width: 991px)
       background-repeat: repeat
 
 .tarjeta-verde
@@ -257,3 +254,28 @@ hr:not([size])
     position: relative
     margin-top: 0px
     left: 0%
+
+.bloque-texto-a.color-secundario
+  background-color: #F6F6F6
+
+.bloque-texto-a:before 
+  @media (max-width: 991px)
+    content: ''
+    display: block
+    position: absolute
+    top: 350px
+    bottom: 0
+    left: 0%
+    right: 0
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #ffffff
+
+.fa-ul2
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
