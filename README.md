@@ -1,8 +1,8 @@
-# **ecoredsena-base v7.0.1**
+# **Almacenar y controlar productos farmacéuticos en los servicios farmacéuticos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-bogota-dc.github.io/CF15_REGENCIA_FARMACIA/](https://ecored-bogota-dc.github.io/CF15_REGENCIA_FARMACIA/)
 
 #
 

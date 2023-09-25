@@ -2,23 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Medicamentos de control especial
-
-    .row.justify-content-center.my-5
-      .col-lg-11.my-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
+    .row.justify-content-center.mb-5
+      .col-lg-11
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4(data-aos="fade-right")
           .bloque-texto-g1__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Son un grupo de medicamentos que por sus características farmacológicas pueden ocasionar dependencia, por lo cual son sustancias sometidas a fiscalización y con normatividad independiente a los otros grupos de medicamentos.
-
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
-        .tarjeta.bg2.p-3.mb-5
+        .tarjeta.bg2.p-3.mb-5(data-aos="fade-down")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/temas/tema2/img5.svg").img-hoja-texto
@@ -31,12 +29,10 @@
                   a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/Resolucion_1478_de_2006.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-
     .row
-      p La resolución anteriormente mencionada es puntual con los criterios de almacenamiento:
-
-    .row.justify-content-center.mb-5
-      .col-lg-7
+      p(data-aos="fade-right") La resolución anteriormente mencionada es puntual con los criterios de almacenamiento:
+    .row.justify-content-center.align-items-center
+      .col-lg-7(data-aos="fade-right")
         hr.mb-0
         .bloque-texto-b.color-secundario.p-4.mb-4
           .bloque-texto-b__texto
@@ -44,16 +40,12 @@
             .row
               p.mb-0 Las sustancia y/o medicamentos sujetos a fiscalización se almacenarán de acuerdo con la clasificación farmacológica y orden alfabético.  El almacenamiento de las sustancias sometidas a fiscalización y medicamentos de control especial debe mantenerse bajo estrictas condiciones de seguridad.
             i.fas.fa-quote-right
-
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Cuando se refiere a estrictas condiciones de seguridad es literalmente que deben estar almacenados en un gabinete fijado al piso o la pared bajo llave, y al cual solo tendrá acceso el director técnico del servicio o establecimiento farmacéutico. 
-
-        p Cabe aclarar que el área de almacenamiento de dichos medicamentos debe cumplir con las condiciones de ventilación, iluminación, pisos, techos y paredes normatizadas para todos los medicamentos en general.
-
-      .col-lg-5.mt-5
+        p.mb-0 Cabe aclarar que el área de almacenamiento de dichos medicamentos debe cumplir con las condiciones de ventilación, iluminación, pisos, techos y paredes normatizadas para todos los medicamentos en general.
+      .col-lg-5.mt-5(data-aos="fade-left")
         figure
-          img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt")
-
+          img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt" style="width:380px").m-auto
 
 </template>
 

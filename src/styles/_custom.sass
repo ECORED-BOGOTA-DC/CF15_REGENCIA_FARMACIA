@@ -1,15 +1,7 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+.banner-principal__row .banner-principal__img
+  width: 410px
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
 
 @keyframes float1
   0%
@@ -18,7 +10,12 @@
   100%
     transform: translateY(0px)
 
+@keyframes float1
+  0%
+    transform: translateY(20px)
 
+  100%
+    transform: translateY(0px)
   
 ///// CSS GLOBALES-------
 
@@ -91,7 +88,7 @@ hr:not([size])
   position: relative
   right: 100%
   margin-top: -20%
-  @media (max-width: 500px)
+  @media (max-width: $bp-min-lg)
     width: 100%
     max-width: 200%
     position: relative
@@ -227,12 +224,13 @@ hr:not([size])
   top: 0
   left: 36%
   bottom: 0
-  background-position: center
+  background-position: 80% 20%
   background-size: cover
-  @media (max-width: 500px)
-    height: 250px
+  background-repeat: no-repeat
+  @media (max-width: $bp-min-lg)
+    height: 100%
     width: 100%
-    left: 0%
+    left: 0px
 
 .bloque-texto-g2__texto 
   position: relative
@@ -247,13 +245,12 @@ hr:not([size])
   width: 190%
   max-width: 300%
   position: relative
-  margin-top: 0px
   left: 20%
-  @media (max-width: 500px)
-    width: 100%
+  @media (max-width: $bp-min-lg)
+    width: 80%
     position: relative
-    margin-top: 0px
     left: 0%
+    margin: auto
 
 .bloque-texto-a.color-secundario
   background-color: #F6F6F6
