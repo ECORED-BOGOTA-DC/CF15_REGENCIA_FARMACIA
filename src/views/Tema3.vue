@@ -30,7 +30,7 @@
       .col-lg-6(data-aos="fade-left")
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Ley 1392 del 2 de Julio de 2010")
-            p por medio de la cual se reconocen las enfermedades huérfanas como de especial interés y se adoptan normas tendientes a garantizar la protección social por parte del Estado colombiano a la población que padece enfermedades huérfanas y a sus cuidadores.
+            p Por medio de la cual se reconocen las enfermedades huérfanas como de especial interés y se adoptan normas tendientes a garantizar la protección social por parte del Estado colombiano a la población que padece enfermedades huérfanas y a sus cuidadores.
           .row(numero="2" titulo="Decreto 1954 del 19 de septiembre de 2012")
             p Por el cual se dictan disposiciones para implementar el sistema de información de pacientes con enfermedades huérfanas.
           .row(numero="3" titulo="Resolución 0430 del 20 de febrero de 2013")

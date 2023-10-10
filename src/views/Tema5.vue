@@ -83,7 +83,7 @@
                         h3.mb-1.texto-blanco Almacenamiento según la clase de producto farmacéutico
                         p.texto-blanco.mb-0 Con el propósito de conocer el formato de almacenamiento de productos se invita al aprendiz a consultar en la sección de material complementario
                       .col-sm-auto
-                        a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/almacenamiento_según_la_clase_de_producto_farmacéutico.pdf')" target="_blank")
+                        a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/almacenamiento_segun_la_clase_de_producto_farmaceutico.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
         .row(titulo="Control de fechas de vencimiento")
@@ -124,11 +124,11 @@
                   | La temperatura ambiente oscila entre 18 a 30 grados centígrados.
                 li
                   i.fas.fa-atom.color-vineta1
-                  | La humedad relativa oscila entre 45% y 70%.
+                  | La humedad relativa oscila entre 45 % y 70 %.
                 li
                   i.fas.fa-atom.color-vineta1
                   | La cadena de frío oscila entre 2 y 8 grados centígrados.
-          p.mb-4 #[b Responsable:] personal del servicio o establecimiento farmacéutico y en las farmacias satélites o carro de reanimación el personal de enfermería.
+          p.mb-4 #[b Responsable:] personal del servicio o establecimiento farmacéutico y en las farmacias satélites o carro de reanimación del personal de enfermería.
           p.mb-4 #[b Formato o documento:] formato control de condiciones ambientales.
             .row.justify-content-center
               .col-lg-10
@@ -166,7 +166,7 @@
                 li
                   i.fas.fa-atom.color-vineta1
                   p.mb-0 #[b Nevera:] los planes de contingencia para esta es revisar que el termómetro esté funcionando bien, revisar que la nevera esté funcionando correctamente y en caso de que esta última sea la del problema se debe dejar la puerta cerrada sin abrirla en ningún momento máximo 8 horas, si el arreglo demora más se deben sacar los medicamentos y ponerlos en neveras de icopor o portátiles con las pilas de gel completamente congeladas; en casos extremos de tiempo se deben llevar los medicamentos a otra nevera de luz, garantizando en todo momento la calidad de estos.
-          p.mb-4 #[b Responsable:] personal del servicio o establecimiento farmacéutico y en las farmacias satélites o carro de reanimación el personal de enfermería.
+          p.mb-4 #[b Responsable:] personal del servicio o establecimiento farmacéutico y en las farmacias satélites o carro de reanimación del personal de enfermería.
           p #[b Formato o documento:] formato control de condiciones ambientales.
         .row(titulo="Control de condiciones de higiene")
           .col-lg-8
@@ -186,7 +186,7 @@
                           h3.mb-1.texto-blanco Cronograma de aseo y limpieza
                           p.texto-blanco.mb-0 Con el propósito de conocer el formato de control de condiciones de higiene se invita al aprendiz a consultar en la sección de material complementario.
                         .col-sm-auto
-                          a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/cronogram_de_aseo_y_limpieza.pdf')" target="_blank")
+                          a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/Anexo7_cronograma_de_aseo_y_limpieza.pdf')" target="_blank")
                             span Descargar
                             i.fas.fa-file-download
           .col-lg-4
@@ -197,24 +197,9 @@
             figure
               img(src='@/assets/curso/temas/tema5/img7.svg', alt='alt' style="width:350px").m-auto
           .col-lg-8
-            p.mb-4 Durante el almacenamiento de medicamentos y dispositivos médicos se pueden presentar daños o deterioros en los empaques primarios de estos, por lo cual deben sacarse del inventario, predestuirse y ser enviados con la empresa encargada para su desnaturalización. Todo esto, se debe realizar bajo protocolos según el manual de gestión de residuos hospitalarios y similares. Para el control de estos se debe elaborar un formato donde se registren estos hallazgos.
+            p.mb-4 Durante el almacenamiento de medicamentos y dispositivos médicos se pueden presentar daños o deterioros en los empaques primarios de estos, por lo cual deben sacarse del inventario, predestruirse y ser enviados con la empresa encargada para su desnaturalización. Todo esto, se debe realizar bajo protocolos según el manual de gestión de residuos hospitalarios y similares. Para el control de estos se debe elaborar un formato donde se registren estos hallazgos.
             p.mb-4 #[b Responsable:] del reporte todo el personal de farmacia, de la predestrucción, salida del inventario y envío para desnaturalización el director técnico del servicio o establecimiento farmacéutico.
             p.mb-4 #[b Formato o documento:] formato de control de averías o deterioro.
-          .row.justify-content-center
-            .col-lg-10
-              .tarjeta.bg2.p-3
-                .row.justify-content-around.align-items-center
-                  .col-3.col-sm-2.col-lg-2
-                    img(src="@/assets/curso/temas/tema2/img5.svg").img-hoja-texto
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h3.mb-1.texto-blanco Cronograma de aseo y limpieza
-                        p.texto-blanco.mb-0 Con el propósito de conocer el formato de control de factores ambientales se invita al aprendiz a consultar en la sección de material complementario.
-                      .col-sm-auto
-                        a.boton.color-aacento-botones(:href="obtenerLink('/downloads/anexos/Anexo7_cronograma_de_aseo_y_limpieza.pdf')" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
 
 </template>
 

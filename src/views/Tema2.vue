@@ -37,7 +37,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom.color-vineta1
-                | Optimiza el espacio del almacenaje por encima del 92%.
+                | Optimiza el espacio del almacenaje por encima del 92 %.
               li
                 i.fas.fa-atom.color-vineta1
                 | Es flexible a los cambios de <em>stock</em>.

@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis de los temas abordados en el componente formativo denominado: Almacenar y controlar productos farmacéuticos, estos temas principales son: Almacenaje que permite a través de documentos como decretos y resoluciones conocer la normatividad vigente frente a este tema y adicional el seguimiento y evaluación atendiendo normativa.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

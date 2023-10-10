@@ -24,7 +24,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Ubicación por pasillos
-            p Los pasillos en el sector farmacéutico son unas calles formadas en el interior del área de almacenamiento que separan una estantería de otra y cuyas dimensiones de anchura están limitadas al flujo de personas que circulan por allí y a la maquinaria utilizada para el transporte y almacenamiento de los producto, por ejemplo, no es lo mismo el espacio que se requiere para movilizar un montacarga, que el espacio para movilizar una carreta o gato estibador. Aun así, la medida de anchura mínima para un pasillo es de 90 cm.
+            p Los pasillos en el sector farmacéutico son unas calles formadas en el interior del área de almacenamiento que separan una estantería de otra y cuyas dimensiones de anchura están limitadas al flujo de personas que circulan por allí y a la maquinaria utilizada para el transporte y almacenamiento de los productos, por ejemplo, no es lo mismo el espacio que se requiere para movilizar un montacarga, que el espacio para movilizar una carreta o gato estibador. Aun así, la medida de anchura mínima para un pasillo es de 90 cm.
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/img2.png', alt='alt' style="width:350px").m-auto
@@ -62,7 +62,7 @@
           .col-lg-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img4.png', alt='alt')
-          p A partir de cada una de las variables mencionadas se determina la capacidad máxima de la estantería, aunque lo más recomendable es no superar el 90% de la capacidad para evitar que el sobrepeso deteriore en corto plazo la calidad de la estantería.
+          p A partir de cada una de las variables mencionadas se determina la capacidad máxima de la estantería, aunque lo más recomendable es no superar el 90 % de la capacidad para evitar que el sobrepeso deteriore en corto plazo la calidad de la estantería.
           p Es importante tener presente que las estanterías deben contar con un rótulo o placa de características otorgadas por el proveedor o fabricante ubicado en un lugar visible a todos los empleados del establecimiento. La información mínima que debe contener el rótulo o placa es:
           .row.justify-content-center
             .col-md-7.col-lg-3

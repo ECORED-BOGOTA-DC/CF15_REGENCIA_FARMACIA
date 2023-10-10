@@ -123,7 +123,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/331502_CF15_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -155,7 +155,7 @@ export default {
         'https://www.youtube.com/watch?v=FtfPRkVEd1s&ab_channel=UniversidadNacionaldeColombia%E2%80%93SitioOficial',
     },
     {
-      tema: '',
+      tema: 'Medicamentos de alto costo',
       referencia:
         'MinSalud. (2014). <i>ABECÉ sobre medicamentos biotecnológicos.</i> MinSalud.',
       tipo: 'PDF',
@@ -167,7 +167,7 @@ export default {
     {
       termino: 'Ámbar',
       significado:
-        'Color entre amarillo y naranja, como el de esta resina fósil.',
+        'color entre amarillo y naranja, como el de la resina fósil.',
     },
     {
       termino: 'Arrumar',
