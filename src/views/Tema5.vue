@@ -199,7 +199,7 @@
           .col-lg-8
             p.mb-4 Durante el almacenamiento de medicamentos y dispositivos médicos se pueden presentar daños o deterioros en los empaques primarios de estos, por lo cual deben sacarse del inventario, predestruirse y ser enviados con la empresa encargada para su desnaturalización. Todo esto, se debe realizar bajo protocolos según el manual de gestión de residuos hospitalarios y similares. Para el control de estos se debe elaborar un formato donde se registren estos hallazgos.
             p.mb-4 #[b Responsable:] del reporte todo el personal de farmacia, de la predestrucción, salida del inventario y envío para desnaturalización el director técnico del servicio o establecimiento farmacéutico.
-            p.mb-4 #[b Formato o documento:] formato de control de averías o deterioro.
+
 
 </template>
 
